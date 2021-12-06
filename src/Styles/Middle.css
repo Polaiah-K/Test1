@@ -1,0 +1,48 @@
+.columntv {
+    float: left;
+    width: 25%;
+    padding: 0px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #test2{
+      margin-bottom: 10px;
+  }
+  .columntv1 {
+    float: left;
+    width: 50%;
+    background-color:  white;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  .column8{
+    /* margin: 1% 0%;  */
+    float: left;
+    width: 48%;
+    padding: 0px;
+    height: 650px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     
+    height: 100%;
+    width: 100%; 
+    
+  }
+  
+  
+  
